@@ -20,5 +20,34 @@ user = 'John'
 
 #Invalid variable names
 _second_variable = 10
-user-name = 20
+user_name = 20
 user_name = 20  #line 23 above fixed here
+
+#Operators
+
+# Addition (+)
+# Subtraction (-)
+# Multiplication (*)
+# Division (/)
+# Modulus (%) whatever is a remainder after you divide
+# Exponent (**)
+
+x = 10
+y = 2
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(5%2)
+
+print(x**y)
+
+#Assignment operators (# There are argumented operators we can use)
+
+x = 10
+x -= 2
+
+print(x)
+
