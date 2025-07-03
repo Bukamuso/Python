@@ -59,3 +59,14 @@ str2 = 'World'
 print(str1 + " " + str2 + " " + str2)
 
 print(str1 * 3)
+
+#Control Statements (they allow the flow of executions based on certain conditions)
+
+num = 0
+
+if num > 0:
+    print("This number is positibe")
+elif num == 0:
+    print("This number is zero")
+else:
+    print("This number is negative")
