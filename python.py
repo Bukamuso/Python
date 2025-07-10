@@ -87,3 +87,47 @@ fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
     print(fruit)
+    
+numbers = [1, 2, 3, 5, 7]
+
+for number in numbers:
+    print(number)    
+    
+#Using a while loop to count from 1 to 5
+
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1 #increments the count by 1  
+    
+#Loop control statements
+
+fruits = ["mango", "avocado", "litch", "date"]
+
+for fruit in fruits:
+    if fruit == "litch":
+      break  #exits the loop is litch is found
+    print(fruit)
+    
+    print()
+    
+for fruit in fruits:
+    if fruit == "litch":
+        continue  #skips litch and moves to the next
+    print(fruit)
+    
+    print()
+    
+for fruit in fruits:
+    if fruit == "litch":
+        pass  #placeholder; no action is needed for litch
+    print(fruit)
+    
+    count = 0
+    
+    while count < 5:
+        print(count)
+        count += 1
+        if count == 3:
+            break #exists the loop when the count is 3, which is 3
