@@ -131,3 +131,29 @@ for fruit in fruits:
         count += 1
         if count == 3:
             break #exists the loop when the count is 3, which is 3
+        
+#Operators
+
+# Addition (+)
+# Subtraction (-)
+# Multiplication (*)
+# Division (/)
+# Modulus (%) whatever is a remainder after you divide
+# Exponent (**)
+
+x = 10
+y = 2
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(5%2)
+
+print(x**y)
+
+x = 10
+x -= 2
+
+print(x)
